@@ -1,0 +1,8 @@
+#include <windows.h>
+int main (){
+system("start chrome globo.com");	// abre o chrome pelo terminal
+Sleep(7000);// delay de 7 segundos
+keybd_event(VK_F11  , 0x7A, 0, 0); // pessiona o f11 
+}
+
+// https://www.codeproject.com/Articles/7305/Keyboard-Events-Simulation-using-keybd-event-funct
